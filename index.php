@@ -1,7 +1,10 @@
 <?php
 
-// Just to satisy php buildpack/
+echo "Hello World! \n";
+ini_set('display_errors',1);
 
-echo "Hello World!";
+echo "Midgard2 installed: " . mgd_version();
+
+
 
 ?>
