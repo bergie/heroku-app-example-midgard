@@ -10,3 +10,7 @@ heroku-app-example-midgard
     git push heroku master
 
 `.buildpack` file contains the list of all buildpacks which should be installed for your heroku slug 
+
+Set at least one process:
+
+    heroku ps:scale web=1
